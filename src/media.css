@@ -1,10 +1,8 @@
 @media screen and (max-width: 480px) {
     header {
-        padding: 0 29px 0 29px;
-        max-width: 370px;
-        width: 100%;
-        margin: 0;
+        max-width: 368.074px;
         height: auto;
+        margin: auto;
     }
 
     .container_nav {
@@ -181,8 +179,7 @@
 
     /*  */
     .container_trailer {
-        max-width: 370px;
-        padding: 0 27px 0 31px;
+        max-width: 368.074px;
         margin: auto;
 
     }
