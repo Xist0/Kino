@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import './media.css'
 import logo from './img/logo.png'
 import poisk from './img/poisk.png'
 import img from './img/image 1.png'
@@ -35,7 +36,7 @@ function App() {
               <img src={logo} alt="Logo" />
               <h1>Kino</h1><h2>area</h2>
             </div>
-            <div className="nav_a">
+            <div className="nav_a" id='nav_a'>
               <div className="nav_a_txt"><a href="#">Афиша</a></div>
               <div className="nav_a_txt"><a href="#">Медиа</a></div>
               <div className="nav_a_txt"><a href="#">Фильмы</a></div>
@@ -70,6 +71,62 @@ function App() {
             </div>
           </div>
           <div className="container_grid">
+            <div className="grid_option">
+              <div className="grid_img">
+                <img src={img} alt="" />
+              </div>
+              <div className="grid_rating">
+                <h1>6.70</h1>
+              </div>
+              <div className="grid_title">
+                <h1>Побег из Претории</h1>
+              </div>
+              <div className="grid_hanr">
+                <p>Триллер</p>
+              </div>
+            </div>
+            <div className="grid_option">
+              <div className="grid_img">
+                <img src={img} alt="" />
+              </div>
+              <div className="grid_rating">
+                <h1>6.70</h1>
+              </div>
+              <div className="grid_title">
+                <h1>Побег из Претории</h1>
+              </div>
+              <div className="grid_hanr">
+                <p>Триллер</p>
+              </div>
+            </div>
+            <div className="grid_option">
+              <div className="grid_img">
+                <img src={img} alt="" />
+              </div>
+              <div className="grid_rating">
+                <h1>6.70</h1>
+              </div>
+              <div className="grid_title">
+                <h1>Побег из Претории</h1>
+              </div>
+              <div className="grid_hanr">
+                <p>Триллер</p>
+              </div>
+            </div>
+            <div className="grid_option">
+              <div className="grid_img">
+                <img src={img} alt="" />
+              </div>
+              <div className="grid_rating">
+                <h1>6.70</h1>
+              </div>
+              <div className="grid_title">
+                <h1>Побег из Претории</h1>
+              </div>
+              <div className="grid_hanr">
+                <p>Триллер</p>
+              </div>
+            </div>
             <div className="grid_option">
               <div className="grid_img">
                 <img src={img} alt="" />
@@ -347,7 +404,7 @@ function App() {
             <div className="expected_news_items_title">
               <h1>Ожидаемые новинки</h1>
             </div>
-            <div className="expected_news_item_nav">
+            <div className="expected_news_item_nav" id='news_item_1' >
               <img src={arrow_left} alt="" />
               <h1>2/5</h1>
               <img src={arrow_right} alt="" />
@@ -397,6 +454,11 @@ function App() {
               <div className="expected_grid_hanr">
                 <p>Триллер</p>
               </div>
+            </div>
+            <div className="expected_news_item_nav" id='news_item_2'>
+              <img src={arrow_left} alt="" />
+              <h1>2/5</h1>
+              <img src={arrow_right} alt="" />
             </div>
           </div>
           <div className="box_office_receipts">
