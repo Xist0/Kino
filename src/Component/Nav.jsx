@@ -3,7 +3,7 @@ import '../media.css'
 import logo from '../img/logo.png'
 import poisk from '../img/poisk.png'
 import React from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 
 function Nav() {
   return (

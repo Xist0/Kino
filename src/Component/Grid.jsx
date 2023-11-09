@@ -1,7 +1,6 @@
 import '../App.css'
 import '../media.css'
 import React, { useState, useEffect } from "react";
-import img from '../img/image 1.png'
 
 function Grid() {
   const [array, setArray] = useState([]);
