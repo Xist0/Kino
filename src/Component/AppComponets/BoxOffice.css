@@ -1,0 +1,102 @@
+.BO_hat{
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+.BO_hat_left{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.BO_hat_left_txt_1{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.BO_hat_left_txt_2{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.BO_hat_right_men_txt{
+    color: #6D717D;
+    font-family: Qanelas;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.BO_hat_right_menu{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+/* //////////////////////////////////////////////////// */
+.BO_Content_card_img{
+    background-image: url(/src/Components/AppComponets/img/BladShot.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 141px;
+    width: 95px;
+    border-radius: 5px;
+}
+.BO_Content_card_h1{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+.BO_Content_card_h2{
+    color: #F2F60F;
+    text-align: right;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.BO_Content_card_h3{
+    color: rgba(255, 255, 255, 0.41);
+    font-family: Qanelas;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.BO_Content_card{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+}
+.BO_Content_card_txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.BO_Content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}

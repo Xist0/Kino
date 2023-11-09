@@ -1,0 +1,385 @@
+.Reviews_hat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.Reviews_button_b {
+  border-radius: 10px;
+  background: #3657cb;
+  width: 200px;
+  height: 60px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Reviews_button_b_txt {
+  color: #fff;
+  font-family: Qanelas;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 166.5%; /* 26.64px */
+}
+.R_Button_backs {
+  border-radius: 10px;
+  background: #1b2133;
+  width: 178px;
+  height: 71px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.R_Button_txt {
+  color: #fff;
+  font-family: Qanelas;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.R_Button_Color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: rgba(54, 87, 203, 0.3);
+  padding: 5px;
+}
+.R_Button_Color_txt {
+  color: #3657cb;
+  font-family: Qanelas;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.R_Button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 15px;
+}
+.R_Card_hat_a_text_1 {
+  color: #fff;
+  font-family: Qanelas;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.R_Card_hat_a_text_button {
+  border-radius: 5px;
+  background: rgba(87, 208, 67, 0.38);
+}
+.R_Card_hat_a_text_button_txt {
+  color: #57d043;
+  font-family: Qanelas;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.R_Card_hat_a_text_M_txt {
+  color: #fff;
+  font-family: Qanelas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.R_Card_hat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.R_Avatar {
+  width: 115px;
+  height: 115px;
+}
+.R_Card_hat_a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 5px;
+}
+.R_Card_hat_a_text_button {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  width: 208px;
+  height: 36px;
+  align-items: center;
+}
+.RR_butron {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.R_Card_hat_a_text_M {
+  display: flex;
+  gap: 10px;
+}
+.R_Card_hat {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.R_Card {
+  border-radius: 10px;
+  border: 5px solid #57d043;
+  background: #191e2e;
+  padding: 10px;
+}
+.R_Card_hat_a_text {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.R_Card_Master {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+.R_Card_Master_top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+}
+.R_Card_Master_top_txt {
+  color: #fff;
+  font-family: Qanelas;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.R_Card_Master_top_txt_1 {
+  color: #cbcbcb;
+  font-family: Qanelas;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.R_Card_Master_content_txt {
+  color: #fff;
+  font-family: Qanelas;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.R_Card_fot_l_co_txt {
+  color: #fff;
+  font-family: Qanelas;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.R_Card_fot_r_txt {
+  color: #ff9e9e;
+  font-family: Qanelas;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.R_Card_fot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.R_Card_fot_l {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.R_Card_fot_l_co {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.R_Card_fot_l_li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.R_Card_fot_r {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.R_Card {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.R_Roundels {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.R_Form {
+  background: #191e2e;
+  border: 5px solid #3657cb;
+}
+
+.R_Form_hat {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.R_Form_hat_txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.R_form_lable {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Qanelas;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166.5%;
+  border-radius: 10px;
+  background: #1e2538;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px;
+  width: 60%;
+  height: 50px;
+}
+.R_form_str {
+  border-radius: 10px;
+  background: #1b2133;
+  color: #fff;
+  font-family: Qanelas;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  height: 50px;
+}
+.R_form_form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.R_Form {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  padding: 20px;
+}
+.R_form_buttonhs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 15px;
+}
+.R_form_buttonhs_txt1 {
+  color: #fff;
+  font-family: Qanelas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.R_form_buttonhs_txt2 {
+  color: #fff;
+  font-family: Qanelas;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+}
+.R_form_buttonhs_txt3 {
+  color: #fff;
+  font-family: Qanelas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.R_form_txt_box {
+  border-radius: 10px;
+  background: #1e2538;
+  color: #fff;
+  font-family: Qanelas;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166.5%;
+  height: 340px;
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+}
+.R_Form_fot_butt_t {
+  border-radius: 10px;
+  border: 2px solid #fff;
+  padding: 5px;
+  display: flex;
+  color: #fff;
+  font-family: Qanelas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 166.5%;
+  justify-content: center;
+  align-items: center;
+}
+.R_Form_fot_butt_w {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #f2f60f;
+  color: #151a26;
+  font-family: Qanelas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 166.5%; /* 29.97px */
+}
+.R_Form_fot_butt{
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.R_Form_fot{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}

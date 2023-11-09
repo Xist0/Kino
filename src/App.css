@@ -86,6 +86,10 @@ header {
   height: 52px;
   background: #FFFFFF;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .nav_poisk>a>img {
@@ -103,18 +107,13 @@ header {
   gap: 12px;
 }
 
-.nav_poisk {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
 
 .nav_poisk:hover {
   box-shadow: 0px 0px 15px 0px #FFF;
 }
 
-.nav_button>button {
+
+.nav_button>a>button {
   width: 138px;
   height: 53px;
   background: #3657CB;
@@ -128,7 +127,7 @@ header {
 
 }
 
-.nav_button>button:hover {
+.nav_button>a>button:hover {
   box-shadow: 0px 0px 15px 0px #4871FFCC;
 }
 
@@ -195,12 +194,14 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   height: 100%;
+  gap: 20px;
   padding: 0;
 }
 
 .grid_option {
   cursor: pointer;
   position: relative;
+  width: 339.401px;
 }
 
 .grid_img>img {
@@ -1211,12 +1212,14 @@ footer {
   line-height: 119%;
   /* 17.85px */
 }
-.footer_ashifa_politika{
+
+.footer_ashifa_politika {
   padding: 26px 0 50px 0;
   display: flex;
   justify-content: center;
 
 }
+
 .footer_ashifa_politika>a {
   color: rgba(227, 230, 240, 0.72);
   text-align: center;
@@ -1227,4 +1230,8 @@ footer {
   line-height: 119%;
   /* 17.85px */
   text-decoration-line: underline;
+}
+
+#news_item_2{
+  display: none;
 }

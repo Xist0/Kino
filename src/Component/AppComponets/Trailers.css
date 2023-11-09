@@ -1,0 +1,265 @@
+.T_hat{
+    width: 100%;
+    display: flex;
+    height: 90px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.T_hat_txt{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.T_hat_left_block{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 30px;
+
+}
+.T_hat_left_block_txt{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.T_Trailers{
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 862px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.T_txt_and_Evaluation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-top: 5px;
+
+}
+.T_Trailers_txt{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    width: 80%;
+}
+.T_Trailers_Evaluation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5px;
+
+}
+.T_Like{
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    background: #1B2133;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 40px;
+    height: 40px;
+
+}
+.T_Like_txt{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5px;
+}
+.T_Like_content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.T_Dislike_content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.T_Dislike{
+    display: flex;
+    border-radius: 10px;
+
+    background: #1B2133;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 40px;
+    height: 40px;
+}
+
+.scroll-container {
+    margin-top: 10px;
+    width: 1800px; /* Ширина контейнера */
+    overflow-x: auto; /* Включение горизонтального скролла, если контент выходит за пределы контейнера */
+    white-space: nowrap; /* Отключение переноса текста на новую строку */
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* Стиль для скроллбара */
+  .scroll-container::-webkit-scrollbar {
+    width: 10px; /* Ширина скроллбара */
+    border-radius: 10px; /* Радиус скругления для скроллбара */
+    background: #1B2133; /* Цвет фона скроллбара */
+  }
+  
+  /* Стиль для ползунка скроллбара */
+  .scroll-container::-webkit-scrollbar-thumb {
+    border-radius: 10px; /* Радиус скругления для ползунка */
+    background: #3657CB; /* Цвет ползунка */
+  }
+.T_scroll_Trailer {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+    .T_scroll_Trailer_img_1 {
+    background-image: url(/src/Components/AppComponets/img/Mulan.png);
+    background-repeat: no-repeat;
+    background-size: cover; /* Заполнение контейнера */
+    background-position: center center; /* Центрирование изображения */
+    width: 100%;
+    padding-bottom: 56.25%; /* 9/16 * 100% = 56.25% для соотношения 16:9 */
+    display: flex;
+    }
+.T_scroll_Trailer_txt{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.T_Trailers_Trailers {
+    width: 1430px;
+    height: 862px;
+  }
+
+  .container_trailer_video_scroll_content {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: first baseline;
+    gap: 8px;
+  }
+  
+  .container_trailer_video_scroll_content>img {
+    width: 449px;
+    height: 252px;
+    border-radius: 10px;
+    transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    /* IE 9 */
+    -webkit-transform: rotateX(180deg);
+    /* Safari and Chrome */
+  }
+  
+  .container_trailer_video_scroll {
+    padding-bottom: 25px;
+    overflow-y: hidden;
+    display: flex;
+    gap: 12px;
+    overflow-x: scroll;
+    direction: ltr;
+    border-radius: 10px;
+    scrollbar-color: #3657CB #1B2133;
+    scrollbar-width: thin;
+    transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    /* IE 9 */
+    -webkit-transform: rotateX(180deg);
+    /* Safari and Chrome */
+  }
+  
+  .container_trailer_video_scroll_content>h1 {
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    /* IE 9 */
+    -webkit-transform: rotateX(180deg);
+    /* Safari and Chrome */
+  }
+  
+  .container_trailer_video_scroll::-webkit-horizontalscrollbar {
+    width: 20px;
+  }
+  .container_trailer_video_scroll{
+    width: 80%;
+  }
+  .container_trailer_video_scroll {
+    padding-bottom: 25px;
+    overflow-y: hidden;
+    display: flex;
+    gap: 12px;
+    overflow-x: scroll;
+    direction: ltr;
+    border-radius: 10px;
+    scrollbar-color: #3657CB #1B2133;
+    scrollbar-width: thin;
+    background: #1B2133; /* Цвет фона скроллбара */
+  }
+  
+  .container_trailer_video_scroll::-webkit-scrollbar {
+    width: 12px; /* Ширина скроллбара */
+    height: 12px; /* Высота скроллбара */
+  }
+  
+  .container_trailer_video_scroll::-webkit-scrollbar-thumb {
+    background-color: #3657CB; /* Цвет ползунка */
+    border-radius: 10px; /* Скругление углов ползунка */
+  }
+  
+  .container_trailer_video_scroll::-webkit-scrollbar-track {
+    background-color: #1B2133; /* Цвет фона скроллбара */
+    border-radius: 10px; /* Скругление углов скроллбара */
+  }
+  
+  .container_trailer_video_scroll::-webkit-scrollbar-button {
+    display: none; /* Убирает стрелки скроллбара */
+  }
+  

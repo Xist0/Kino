@@ -1,0 +1,161 @@
+.M_Poster{
+    width: 30%;
+    border-radius: 10px
+}
+.M_menu_text{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 168.7%;
+}
+.M_text_65{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.Offer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin-top: 50px;
+}
+.M_Offer{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    gap: 20px;
+}
+.M_txt_25{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.M_txt_15{
+    color: #FFF;
+    text-align: center;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.M_870Kinoarea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.M_p_a{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 166.5%; /* 33.3px */
+}
+.M_txt_18{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 166.5%; /* 29.97px */
+}
+.M_T_Button{
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    background-color: transparent;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+.M_Button_and_s{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-row: 20px;
+}
+
+.ER_B{
+    border-radius: 10px;
+    background: #1B2133;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ER_ER{
+    border-radius: 5px;
+    background: #2E6125;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 45px;
+}
+.ER_ER_Txt{
+    color: #57D043;
+    font-family: Qanelas;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.M_txt_14{
+    color: #E8E9EB;
+    font-family: Qanelas;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Expectation_Rating{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 64%;
+    gap: 10px;
+    margin-top: 20px;
+}
+.Information{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.I_label{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Qanelas;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+.I_value{
+    color: #F2F60F;
+    font-family: Qanelas;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}

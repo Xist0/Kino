@@ -1,0 +1,208 @@
+.L_loginForm {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: #191E2E;
+    gap: 10px;
+}
+
+.L_Heading {
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.L_lable {
+    width: 500px;
+    border-radius: 10px;
+    background: #1E2538;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: "Qanelas", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.5%;
+    display: inline-block;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    border: none;
+}
+
+.L_button_Yellow {
+    border-radius: 10px;
+    background: #F2F60F;
+    color: #151A26;
+    font-family: Qanelas;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 166.5%;
+    /* 28.305px */
+    width: 500px;
+    cursor: pointer;
+    height: 60px;
+    border: none;
+}
+
+.L_button {
+    border-radius: 10px;
+    background: #1E2538;
+    color: #FFF;
+    text-align: center;
+    font-family: Qanelas;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 166.5%;
+    /* 28.305px */
+    width: 500px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+.L_links {
+    color: #3657CB;
+    text-align: center;
+    font-family: Qanelas;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 166.5%;
+    /* 28.305px */
+    text-decoration-line: underline;
+}
+
+.Social {
+    border-radius: 10px;
+    background: #1E2538;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.Socials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.Reg_form {
+    width: 100vw;
+    padding: 40px 0 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: #191E2E;
+    gap: 10px;
+}
+
+.checkbox {
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.RecoverPassword {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: #191E2E;
+    gap: 10px;
+    height: 100vh;
+}
+
+.R_Buttons_B {
+    border-radius: 10px;
+    background: #3657CB;
+    width: 100%;
+    height: 70px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Qanelas;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 166.5%;
+    /* 28.305px */
+}
+
+.R_Buttons_T {
+    border-radius: 10px;
+    background: #1E2538;
+    width: 100%;
+    height: 70px;
+    border: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Qanelas;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.5%;
+    /* 28.305px */
+}
+
+.R_Buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+    gap: 10px;
+}
+
+.L_lable_2 {
+    width: 250px;
+    border-radius: 10px;
+    background: #1E2538;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: "Qanelas", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.5%;
+    padding: 10px;
+    display: inline-block;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    border: none;
+}

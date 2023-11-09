@@ -1,0 +1,48 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.F_Networks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.F_menu_txt{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.F_menu{
+    display: flex;
+    gap: 20px;
+}
+.F_Politics_txt_1{
+    color: rgba(227, 230, 240, 0.72);
+    text-align: center;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119%; /* 17.85px */
+}
+.F_Politics_txt_2{
+    color: rgba(227, 230, 240, 0.72);
+    text-align: center;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 119%; /* 17.85px */
+    text-decoration-line: underline;
+}

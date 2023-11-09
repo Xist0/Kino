@@ -1,0 +1,65 @@
+.EN_hat{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px ;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+.EN_hat_left_txt{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.EN_hat_right_txt_2{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.EN_hat_right{
+    gap: 5px;
+    display: flex;
+}
+/* /////////////////////////////////////// */
+.EN_Content{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.EN_card_img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 340px;
+    height: 470px;
+}
+.EN_card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.EN_card_txt_1{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.EN_card_txt_2{
+    color: #F2F60F;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 191.2%; /* 28.68px */
+}

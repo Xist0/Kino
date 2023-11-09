@@ -1,0 +1,55 @@
+.PMC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.PM_Heading{
+    width: 80%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.PM_Heading_txt{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.PM_Heading_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 15px;
+}
+.PM_Heading_menu_txt{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.PM_Arrow{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.PM_Arrow_txt{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

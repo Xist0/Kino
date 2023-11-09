@@ -1,0 +1,61 @@
+.styled-checkbox {
+    display: none; /* Скрыть стандартную кнопку */
+  }
+  
+  .styled-checkbox + label {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px; /* Расстояние между краем и текстом */
+    cursor: pointer;
+  }
+  
+  .styled-checkbox + label:before {
+    content: '';
+    display: inline-block;
+    width: 18px; /* Размер кнопки */
+    height: 18px; /* Размер кнопки */
+    border-radius: 2px; /* Радиус границы */
+    border: 1px solid #F2F60F; /* Граница */
+    background: #F2F60F; /* Фон кнопки */
+  }
+  
+  .styled-checkbox:checked + label:before {
+    content: '';
+    display: inline-block;
+    width: 18px; /* Размер кнопки */
+    height: 18px; /* Размер кнопки */
+    border-radius: 2px; /* Радиус границы */
+    border: 1px solid #F2F60F; /* Граница */
+    background: #F2F60F; /* Фон кнопки */
+  }
+  
+  .styled-checkbox + label:after {
+    content: '';
+    display: none;
+  }
+  
+  .styled-checkbox:checked + label:after {
+    content: '';
+    position: absolute;
+    top: 4px; /* Позиционирование галочки */
+    left: 4px; /* Позиционирование галочки */
+    width: 6px; /* Размер галочки */
+    height: 10px; /* Размер галочки */
+    border: solid #151A26; /* Цвет галочки */
+    border-width: 0 2px 2px 0; /* Стили галочки */
+    transform: rotate(45deg); /* Поворот на 45 градусов */
+  }
+  
+  .styled-checkbox + label:after {
+    content: '';
+    display: none;
+  }
+  .Radiobatton_Text{
+    color: #FFF;
+  text-align: center;
+  font-family: Qanelas;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.2%; /* 23.834px */
+  }

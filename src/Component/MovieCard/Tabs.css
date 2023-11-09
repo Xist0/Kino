@@ -1,0 +1,29 @@
+.tabs_iteme_txt{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Qanelas;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.tabs_iteme_a{
+    border-radius: 10px;
+    background: #3657CB;
+    box-shadow: 0px 0px 15px 0px rgba(54, 87, 203, 0.80);
+    padding: 15px;
+}
+.tabs_iteme_txt_a{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+.tabs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

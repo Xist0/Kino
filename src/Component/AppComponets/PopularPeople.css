@@ -1,0 +1,179 @@
+.PPe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.PPe_hat{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.PPe_hat_txt{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.PPe_hat_txt_menu{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.PPe_hat_txt_menu_text{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* ///////////////////////////// */
+.PPe_PersonCard{
+    background-image: url(/src/Components/AppComponets/img/QuentinTarantino.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 444px;
+    height: 444px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+}
+.PPe_Person{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+.PPe_Person_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 22px;
+}
+.PPe_PersonCard_hat_txt{
+    color: #F2F60F;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 133.333% */
+}
+.PPe_PersonCard_bot_txt_1{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.PPe_PersonCard_bot_txt_2{
+    color: rgba(255, 255, 255, 0.35);
+    font-family: Qanelas;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.PPe_PersonCard_bot_txt_3{
+    color: #F2F60F;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 133.333% */
+}
+.PPe_PersonCard_bot_txt{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 5px;
+
+}
+.PPe_Person_right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    background: #1B2133;
+}
+.PPE_List_intem_right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.PPE_List_intems{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.PPE_List_h_1{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.PPE_List_h_2{
+    color: #3B486B;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.PPE_List_h_3{
+    color: #F2F60F;
+    font-family: Qanelas;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.PPE_Lust_right_txt{
+    color: #F2F60F;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.PPE_List{
+    width: 444px;
+    height: 444px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly
+}
+line{
+    background: #1E2538;
+    height: 3px;
+}

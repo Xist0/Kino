@@ -1,0 +1,76 @@
+
+.Hat{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    height: 60px;
+    padding-top: 10px;
+}
+.Hat_text_Kino{
+    color: #3657CB;
+    font-family: Qanelas;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.Hat_text_area{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.Hat_menu_txt{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.Hat_Enter{
+    border-radius: 10px;
+    background: #3657CB;
+    box-shadow: 0px 0px 15px 0px rgba(72, 113, 255, 0.80);
+    width: 138px;
+    height: 53px;
+}
+.Hat_Enter_txt{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 166.5%; /* 26.64px */
+}
+.hat_logo_svg{
+    margin-right: 5px;
+}
+.Hat_Logo{
+    display: flex;
+    align-items: center;
+}
+.Hat_menu{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.Hat_Enter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Hat_Button{
+    display: flex;
+    gap: 5px;
+}

@@ -1,0 +1,128 @@
+.LN_hat{
+    display: flex;
+    padding-bottom: 1%;
+    align-items: center;
+    justify-content: space-around;
+}
+.LN_hat_left_txt{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.LN_hat_right_txt{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.LN_hat_right{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+/* /////////////////////////////// */
+.LN_content{
+    display: flex;
+    grid-row: 10px;
+    justify-content: center;
+    gap: 10px;
+
+}
+.LN_Master{
+    background-image: url(/src/Components/AppComponets/img/masterNow.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1160px;
+    height: 870px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+}
+.LN_Master_top{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height: 34px;
+}
+.LN_Master_top_txt{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 191.2%; /* 28.68px */
+}
+.LM_C_C{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.LN_Master_Bot_txt_1{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    bottom: 50%;
+}
+.LN_Master_Bot_txt_2{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0%; /* 0px */
+}
+.LN_others_card{
+    background-image: url(/src/Components/AppComponets/img/Sonik.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 340px;
+    height: 190px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+}
+.LN_others_card_hat{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 191.2%; /* 28.68px */
+}
+.LN_others_card_bot{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.LN_others{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

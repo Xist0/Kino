@@ -1,0 +1,81 @@
+.IFATF{
+    border-radius: 10px;
+    background: rgba(54, 87, 203, 0.30);
+    width: 80%;
+    padding: 30px;
+    margin-top: 40px;
+}
+.IFATF_hat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.IFATF_hat_pers_img {
+    aspect-ratio: 1 / 1; /* Пропорции 1:1 (ширина / высота) */
+    /* width: 13%; */
+    object-fit: cover;
+}
+.IFATF_hat_pers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.IFATF_hat_pers_txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.IFATF_hat_pers_txt_1{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.IFATF_hat_pers_txt_2{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Qanelas;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.IFATF_hat_pers_txt_3{
+    color: #F2F60F;
+    font-family: Qanelas;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.IFATF_production_P,
+.IFATF_production_ol {
+  color: #F2F60F;
+  font-family: Qanelas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  text-decoration-line: underline;
+  display: flex;
+  flex-direction: column;
+  gap: 5px  ;
+}
+
+.IFATF_production p {
+  color: #FFF;
+  font-weight: 600;
+  line-height: 15px;
+}
+.IFATF_production{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.IFATF_P{
+    display: flex;
+    gap: 25px;
+}
